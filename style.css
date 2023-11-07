@@ -2,9 +2,11 @@
         body{
             margin: 0px;
         }
+        *{
+            font-family: Inter,sans-serif;
+        }
         #Recharge,#Book{
             color: aliceblue;
-            font-family: Inter,sans-serif;
         }
         #Recharge>div{
             display: flex;
@@ -69,4 +71,37 @@
         }
         #top{
             display: flex;
+            padding: 50px 0px 50px 0px;
+            justify-content: space-between;
+            align-items: center;
         }
+        #top>div{
+            width: 500px;  
+        }
+        #leftintro{
+            padding: 100px;
+        }
+        #rightintro{
+            
+        }
+        #leftintro>div>img{
+            height: 100px;
+        }
+        #leftintro>div>p:nth-child(1){
+            font-size: 50px;
+            margin-top: 40px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        #leftintro>div>p:nth-child(2){
+            font-size: 20px;
+            font-weight: 500;
+        }
+        #rightintro>div>img{
+            height: 500px;    
+        }
+        #leftintro>div>button{
+            padding: 10px;
+            border-radius: 20px;
+        }
+        
