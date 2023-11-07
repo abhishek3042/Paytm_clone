@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paytm</title>
     <style>
+        body{
+            margin: 0px;
+        }
+        #Recharge,#Book{
+            color: aliceblue;
+            font-family: Inter,sans-serif;
+        }
         #Recharge>div{
             display: flex;
             background-color:#00baf2;
@@ -35,13 +42,13 @@
             font-size: 38px;
             font-weight: bold;
         }
+        #container2{
+            font-size: 38px;
+            font-weight: bold;
+        }
         .icon{
             height: 62px;
             width: 62px
-        }
-        *{
-            color: aliceblue;
-            font-family: Inter,sans-serif;
         }
         .service{
             height: 150px;
@@ -57,12 +64,34 @@
         .service:hover{
             background-color: #08a2d1;
         }
-        .service>div:nth-child(4){
+        .book:hover{
+            background-color: #0d2544;
+        }
+        .service>div:last-child{
             display: inline-flex;
+        }
+        .service>div:last-child>div{
+            margin-left: 6px;
+        }
+        #top{
+            display: flex;
         }
     </style>
 </head>
 <body>
+    <div id="top">
+        <div>
+            <div><img src="https://assetscdn1.paytm.com/images/catalog/view/310944/1697527183231.png" alt="" srcset=""></div>
+            <div>
+                <h1>India's Most-loved Payments App</h1>
+                <p>Recharge & pay bills, book flights & movie tickets, open a savings account, invest in stocks & mutual funds, and do a lot more.</p>
+            </div>
+            <div>
+                <Button>Download Paytm App</Button>
+            </div>
+        </div>
+        <div></div>
+    </div>
     <div id="Recharge">
         <div id="container1">
             <p>Recharge & Pay Bills on Paytm.</p>
@@ -113,44 +142,44 @@
         </div>
     </div>
     <div id="Book">
-        <div id="container1">
-            <p>Recharge & Pay Bills on Paytm.</p>
+        <div id="container2">
+            <p>Book & Buy on Paytm.</p>
         </div>
         <div>
-            <div class="service">
-                <div><img class="icon" src="https://assetscdn1.paytm.com/images/catalog/view_item/733299/1626251017535.png" alt="img not found" srcset=""></div>       
-                <div> Prepaid  </div>
-                <div>Mobile <div>></div></div>
+            <div class="service book">
+                <div><img class="icon" src="https://assetscdn1.paytm.com/images/catalog/view_item/733295/1626259710574.png" alt="img not found" srcset=""></div>       
+                <div> Movie</div>
+                <div>Tickets<div>></div></div>
             </div>
-            <div class="service">
-                <div><img class="icon" src="https://assetscdn1.paytm.com/images/catalog/view_item/733308/1626251043534.png" alt="img not found" srcset=""></div>
-                <div> Electricity </div>
-                <div> Bill <div>></div></div>
+            <div class="service book">
+                <div><img class="icon" src="https://assetscdn1.paytm.com/images/catalog/view_item/733296/1626259884425.png" alt="img not found" srcset=""></div>
+                <div>Flight</div>
+                <div>Tickets<div>></div></div>
             </div>
-            <div class="service">
-                <div><img class="icon" src="https://assetscdn1.paytm.com/images/catalog/view_item/733311/1626251101045.png" alt="img not found" srcset=""></div>        
-                <div> DTH </div>
-                <div> Connection <div>></div></div>
+            <div class="service book">
+                <div><img class="icon" src="https://assetscdn1.paytm.com/images/catalog/view_item/729996/1626260477699.png" alt="img not found" srcset=""></div>        
+                <div>BUS</div>
+                <div>Tickets<div>></div></div>
             </div>
-            <div class="service">
-                <div><img class="icon" src="https://assetscdn1.paytm.com/images/catalog/view_item/733307/1626251127863.png" alt="img not found" srcset=""></div>
-                <div> Gas </div>
-                <div> Cylinder <div>></div></div>
+            <div class="service book">
+                <div><img class="icon" src="https://assetscdn1.paytm.com/images/catalog/view_item/729997/1696910636390.png" alt="img not found" srcset=""></div>
+                <div>Train</div>
+                <div>Tickets<div>></div></div>
             </div>
-            <div class="service">
-                <div><img class="icon" src="https://assetscdn1.paytm.com/images/catalog/view_item/733307/1626251127863.png" alt="img not found" srcset=""></div>
-                <div> Broadband & </div>
-                <div> Landline Bill <div>></div></div>
+            <div class="service book">
+                <div><img class="icon" src="https://assetscdn1.paytm.com/images/catalog/view_item/729998/1666185237748.png" alt="img not found" srcset=""></div>
+                <div>Buy</div>
+                <div>Insurance<div>></div></div>
             </div>
-            <div class="service">
-                <div><img class="icon" src="https://assetscdn1.paytm.com/images/catalog/view_item/1269194/1672827522093.png" alt="img not found" srcset=""></div>
-                <div> Education </div>
-                <div> Fee <div>></div></div>
+            <div class="service book">
+                <div><img class="icon" src="https://assetscdn1.paytm.com/images/catalog/view_item/729999/1626259968563.png" alt="img not found" srcset=""></div>
+                <div>International</div>
+                <div>Flights<div>></div></div>
             </div>
-            <div class="service">
-                <div><img class="icon" src="https://assetscdn1.paytm.com/images/catalog/view_item/757701/1626268580682.png" alt="img not found" srcset=""></div>
-                <div> Payment </div>
-                <div> Services <div>></div></div>
+            <div class="service book">
+                <div><img class="icon" src="https://assetscdn1.paytm.com/images/catalog/view_item/730001/1626450848003.png" alt="img not found" srcset=""></div>
+                <div>Invest</div>
+                <div>in stocks<div>></div></div>
             </div>
         </div>
     </div>
