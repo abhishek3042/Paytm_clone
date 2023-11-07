@@ -1,0 +1,72 @@
+
+        body{
+            margin: 0px;
+        }
+        #Recharge,#Book{
+            color: aliceblue;
+            font-family: Inter,sans-serif;
+        }
+        #Recharge>div{
+            display: flex;
+            background-color:#00baf2;
+        }
+        #Recharge>:nth-child(1){
+            padding: 25px 120px 3px;
+        }
+        #Recharge>:nth-child(2){
+            padding: 3px 100px 50px;
+        }
+        #Recharge>:nth-child(2)>div{
+            margin: auto;
+        }
+        #Book>div{
+            display: flex;
+            background-color:#0d3e80;
+        }
+        #Book>:nth-child(1){
+            padding: 10px 120px 5px;
+        }
+        #Book>:nth-child(2){
+            padding: 5px 100px 50px;
+        }
+        #Book>:nth-child(2)>div{
+            margin: auto;
+        }
+        #container1{
+            font-size: 38px;
+            font-weight: bold;
+        }
+        #container2{
+            font-size: 38px;
+            font-weight: bold;
+        }
+        .icon{
+            height: 62px;
+            width: 62px
+        }
+        .service{
+            height: 150px;
+            width :130px;
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .service>div{
+            margin-bottom: 5px;
+        }
+        .service:hover{
+            background-color: #08a2d1;
+        }
+        .book:hover{
+            background-color: #0d2544;
+        }
+        .service>div:last-child{
+            display: inline-flex;
+        }
+        .service>div:last-child>div{
+            margin-left: 6px;
+        }
+        #top{
+            display: flex;
+        }
